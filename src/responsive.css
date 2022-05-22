@@ -1,0 +1,28 @@
+@media only screen and (max-width: 380px) {
+    /* Navbar */
+    .navbar .container {
+        height: 50px;
+    }
+    .navbar .wrapper {
+        padding: 10px;
+    }
+    .navbar .wrapper .center .logo {
+        font-size: 24px;
+    }
+    .navbar .wrapper .right {
+        flex: 2;
+        justify-content: center;
+    }
+    .navbar .wrapper .right .menu-item {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    /* Footer */
+    .footer.container {
+        display: column;
+    }
+    .footer.container .center {
+        display: none;
+    }
+}
